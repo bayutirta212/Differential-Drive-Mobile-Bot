@@ -49,10 +49,10 @@ The CD74HC4067 multiplexer is used to expand input capability while minimizing G
 
 | ESP32 Pin | Function |
 |---|---|
-| GPIO25 | Motor A IN1 |
-| GPIO26 | Motor A IN2 |
-| GPIO27 | Motor B IN1 |
-| GPIO14 | Motor B IN2 |
+| GPIO16 | Motor A IN1 |
+| GPIO17 | Motor A IN2 |
+| GPIO05 | Motor B IN1 |
+| GPIO23 | Motor B IN2 |
 
 ---
 
@@ -60,10 +60,10 @@ The CD74HC4067 multiplexer is used to expand input capability while minimizing G
 
 | ESP32 Pin | Function |
 |---|---|
-| GPIO34 | Left Encoder A |
-| GPIO35 | Left Encoder B |
-| GPIO32 | Right Encoder A |
-| GPIO33 | Right Encoder B |
+| GPIO39 | Left Encoder A |
+| GPIO36 | Left Encoder B |
+| GPIO35 | Right Encoder A |
+| GPIO34 | Right Encoder B |
 
 ---
 
@@ -71,7 +71,7 @@ The CD74HC4067 multiplexer is used to expand input capability while minimizing G
 
 | ESP32 Pin | Function |
 |---|---|
-| GPIO5 | Trigger |
+| GPIO19 | Trigger |
 | GPIO18 | Echo |
 
 ---
@@ -89,21 +89,15 @@ The CD74HC4067 multiplexer is used to expand input capability while minimizing G
 
 | ESP32 Pin | Function |
 |---|---|
-| GPIO19 | S0 |
-| GPIO23 | S1 |
-| GPIO12 | S2 |
-| GPIO13 | S3 |
-| GPIO4 | SIG |
+| GPIO27 | S0 |
+| GPIO26 | S1 |
+| GPIO25 | S2 |
+| GPIO33 | S3 |
+| GPIO32 | SIG |
+| GIPO13 | EN |
 
 ---
 
-## TCRT5000
-
-| ESP32 Pin | Function |
-|---|---|
-| GPIO15 | Sensor Output |
-
----
 
 # Repository Contents
 
@@ -120,7 +114,6 @@ The CD74HC4067 multiplexer is used to expand input capability while minimizing G
 This project can be programmed using:
 - Arduino IDE
 - PlatformIO
-- ESP-IDF
 
 Recommended Libraries:
 - Adafruit SSD1306
@@ -139,17 +132,6 @@ Recommended Libraries:
 
 ---
 
-# Preview
-
-Add your images here:
-
-```md
-![Schematic](images/schematic.png)
-![PCB Front](images/pcb_front.png)
-![PCB Back](images/pcb_back.png)
-```
-
----
 
 # Future Improvements
 
@@ -170,5 +152,5 @@ This project is open-source under the MIT License.
 # Author
 
 Rafael Subally  
-Mechatronics Engineering Education  
+Student at Mechatronics Engineering Education  
 Universitas Negeri Yogyakarta
