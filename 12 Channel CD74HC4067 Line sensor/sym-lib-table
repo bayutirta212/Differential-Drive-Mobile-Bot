@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "HC4067_breakout_board") (type "EAGLE") (uri "${KIPRJMOD}/HC4067-MUX-Breakout-Board/HC4067_breakout_board.lbr") (options "") (descr ""))
+	(lib (name "tcrt5000") (type "KiCad") (uri "${KIPRJMOD}/kicad-tcrt5000/tcrt5000.kicad_sym") (options "") (descr ""))
+)
